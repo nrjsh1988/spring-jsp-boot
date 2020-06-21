@@ -1,4 +1,3 @@
-cleanWs()
 pipeline {
    agent any
    stages {
