@@ -3,10 +3,9 @@ pipeline {
    stages {
       stage('First Step') {
          steps { 
-            echo "Hello"
+            echo 'Hello'
          }   
       }
    }  
    
-   echo "$a"
 }
