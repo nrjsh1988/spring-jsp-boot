@@ -1,3 +1,12 @@
-node {
+pipeline {
+   agent any
+   stages {
+      stage('First Step') {
+         steps { 
+            echo "Hello"
+         }   
+      }
+   }  
+   
    echo "$a"
 }
